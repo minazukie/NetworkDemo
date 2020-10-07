@@ -7,5 +7,5 @@ def client(host: str, port: int):
     sock.sendto(b"HELLO EVERYONE!", (host, port))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     client("<broadcast>", 8888)
